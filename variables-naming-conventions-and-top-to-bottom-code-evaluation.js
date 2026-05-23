@@ -28,5 +28,13 @@ let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
-
 console.log(d);
+
+
+let clientName = "Alice";
+let numberOfItems = 5;
+let totalCost = 20;
+let discount = 5; // Additional variable to represent a discount applied to the total cost
+let finalCost = totalCost - discount;
+let purchaseSummary = clientName + " bought " + numberOfItems + " items for $" + finalCost + ".";
+console.log(purchaseSummary);
