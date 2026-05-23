@@ -31,10 +31,10 @@ let d = a + " bought " + b + " items for $" + c + ".";
 console.log(d);
 
 
-let clientName = "Alice";
-let numberOfItems = 5;
-let totalCost = 20;
-let discount = 5; // Additional variable to represent a discount applied to the total cost
+let clientName = "Alice"; // Renamed variable 'a' to 'clientName' for clarity
+let numberOfItems = 5;// Used camelCase 
+let totalCost = 20;//
+let discount = 5; // Additional  extra variable to represent a discount applied to the total cost for the functionality and clarity of the program.
 let finalCost = totalCost - discount;
 let purchaseSummary = clientName + " bought " + numberOfItems + " items for $" + finalCost + ".";
 console.log(purchaseSummary);
